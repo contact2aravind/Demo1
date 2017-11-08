@@ -42,7 +42,7 @@ public class EarthquakeActivity extends AppCompatActivity {
         earthquakes.add("Paris");
 
         // Find a reference to the {@link ListView} in the layout
-        ListView earthquakeListView = (ListView) findViewById(R.id.list);
+        ListView earthquakeListView2 = (ListView) findViewById(R.id.list);
 
         // Create a new {@link ArrayAdapter} of earthquakes
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
@@ -50,6 +50,6 @@ public class EarthquakeActivity extends AppCompatActivity {
 
         // Set the adapter on the {@link ListView}
         // so the list can be populated in the user interface
-        earthquakeListView.setAdapter(adapter);
+        earthquakeListView2.setAdapter(adapter);
     }
 }
